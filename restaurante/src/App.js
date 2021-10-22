@@ -10,8 +10,8 @@ function App() {
         <
         Header / >
         <
-        /header> < /
-        div >
+        /header> <
+        /div>
     );
 }
 

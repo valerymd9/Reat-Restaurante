@@ -6,8 +6,17 @@ export default class Header extends React.Component {
         return (
 
             <
-            div > hola mundo < /div>
-
+            header >
+            <
+            div > Logo < /div> <
+            nav >
+            <
+            a href = "#/" > Inicio < /a> <
+            a href = "#/" > Quienes Somos < /a> <
+            a href = "#/" > Menu < /a> <
+            a href = "#/" > Contactanos < /a> <
+            /nav> <
+            /header>
         )
 
     }
