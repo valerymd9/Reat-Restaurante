@@ -9,19 +9,55 @@ export default class Footer extends React.Component {
 
         return (
 
-          <footer className="footer">
-          <Card className="text-center">
-          <Card.Header >Footer</Card.Header>
-          <Card.Body>
-            <Card.Title>Servicios D´Gusto</Card.Title>
-            <Card.Text>
-              With supporting text below as a natural lead-in to additional content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-          <Card.Footer className="text-muted">Todos los derechos Reservados 2021</Card.Footer>
-        </Card>
-        </footer>
+          <div className="main-footer">
+          <div className="container">
+            <div className="row">
+              {/* Column1 */}
+              <div className="col">
+                <h4>Menú</h4>
+                <ui className="list-unstyled">
+                  <li>342-420-6969</li>
+                  <li>Moscow, Russia</li>
+                  <li>123 Streeet South North</li>
+                </ui>
+              </div>
+              {/* Column2 */}
+              <div className="col">
+                <h4>Servicios</h4>
+                <ui className="list-unstyled">
+                  <li>DANK MEMES</li>
+                  <li>OTHER STUFF</li>
+                  <li>GUD STUFF</li>
+                </ui>
+              </div>
+              {/* Column3 */}
+              <div className="col">
+                <h4>Contactanos</h4>
+                <ui className="list-unstyled">
+                  <li>DANK MEMES</li>
+                  <li>OTHER STUFF</li>
+                  <li>GUD STUFF</li>
+                </ui>
+              </div>
+                {/* Column4 */}
+              <div className="col">
+                <h4>Redes Sociales</h4>
+                <ui className="list-unstyled">
+                  <li>DANK MEMES</li>
+                  <li>OTHER STUFF</li>
+                  <li>GUD STUFF</li>
+                </ui>
+              </div>
+          </div>
+            <hr />
+            <div className="row">
+              <p className="col-sm">
+                &copy;{new Date().getFullYear()} THICC MEMES | All rights reserved |
+                Terms Of Service | Privacy
+              </p>
+            </div>
+          </div>
+        </div>
                 );
               
 
