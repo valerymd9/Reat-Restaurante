@@ -50,9 +50,9 @@ export default class Footer extends React.Component {
               <div className="col">
                 <h4>Redes Sociales</h4>
                 <ui className="list-unstyled">
-                  <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                  <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-                  <li><i class="fa fa-twitch" aria-hidden="true"></i></li>
+                  <li>Facebook</i></li>
+                  <li>Twitter</i></li>
+                  <li>Instagram</i></li>
                  
                 </ui>
               </div>
