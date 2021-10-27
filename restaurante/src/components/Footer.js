@@ -16,36 +16,44 @@ export default class Footer extends React.Component {
               <div className="col">
                 <h4>Menú</h4>
                 <ui className="list-unstyled">
-                  <li>342-420-6969</li>
-                  <li>Moscow, Russia</li>
-                  <li>123 Streeet South North</li>
+                  <li>Bandeja Paisa</li>
+                  <li>Ajiaco</li>
+                  <li>Arroz con Coco</li>
+                  <li>Cazuela de Mariscos</li>
+                  <li>Sancocho</li>
+                  <li>Arepas Rellenas</li>
                 </ui>
               </div>
               {/* Column2 */}
               <div className="col">
                 <h4>Servicios</h4>
                 <ui className="list-unstyled">
-                  <li>DANK MEMES</li>
-                  <li>OTHER STUFF</li>
-                  <li>GUD STUFF</li>
+                  <li>Cumpleaños</li>
+                  <li>Despedidas</li>
+                  <li>Fiestas infantiles</li>
+                  <li>Propuestas</li>
+                  <li>Aniversarios</li>
+                  <li>Reuniones Empresariales</li>
                 </ui>
               </div>
               {/* Column3 */}
               <div className="col">
                 <h4>Contactanos</h4>
                 <ui className="list-unstyled">
-                  <li>DANK MEMES</li>
-                  <li>OTHER STUFF</li>
-                  <li>GUD STUFF</li>
+                <li>Dirección:Calle 35 E 25</li>
+                  <li>Horario de atención: 8:00 a.m - 10:00 p.m.</li>
+                  <li>Reservas: 314578920</li>
+                  <li>Email: dgusto@gmail.com</li>
                 </ui>
               </div>
                 {/* Column4 */}
               <div className="col">
                 <h4>Redes Sociales</h4>
                 <ui className="list-unstyled">
-                  <li>DANK MEMES</li>
-                  <li>OTHER STUFF</li>
-                  <li>GUD STUFF</li>
+                  <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-twitch" aria-hidden="true"></i></li>
+                 
                 </ui>
               </div>
           </div>
