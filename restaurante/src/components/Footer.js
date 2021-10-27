@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
-import { Card, Button } from 'react-bootstrap';
+
 
 
 export default class Footer extends React.Component {
