@@ -15,7 +15,7 @@ const Layout = () => {
                     <div className="container">
                         
                         <div className="main">
-                            <Routes />
+                            <Routes /><div className="container">{props.children}</div>
                         </div>
                     </div>
                     <Footer />

@@ -1,10 +1,15 @@
-import React from 'react'
-const Carta = () => {
+import React from 'react';
+import Menu from '../components/menu/menu';
+
+const Carta = (props) => {
     return (
-        <div>
-            Carta
-        </div>
-    )
+        <div><Menu/></div>
+
+       
+            
+           
+        
+    );
 }
 
 export default Carta
