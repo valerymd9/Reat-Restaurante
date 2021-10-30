@@ -1,0 +1,46 @@
+.custom_heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+.custom_heading-text {
+    text-align: center;
+}
+
+.container {
+    height: 100%;
+}
+
+.line {
+    border: 1em;
+}
+
+.row_featurette {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.5;
+    color: #000000;
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+}
+
+.col-md-7 {
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    ;
+}
+
+.col-md-5 {
+    padding-left: 15px;
+    padding-right: 25px;
+    float: right;
+    ;
+}
+
+.text {
+    padding-right: 6 0px;
+}

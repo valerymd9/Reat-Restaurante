@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Nosotros from '../components/Nosotros.js';
+
 
 const Quienes = () => {
     return (
         <div>
-            Quienes
+          <Nosotros/>  
         </div>
     )
 }
