@@ -1,9 +1,10 @@
 import React from 'react'
+import Reservar from '../components/reservas';
 
 const Reservas = () => {
     return (
         <div>
-            Reservas
+            <Reservar/>
         </div>
     )
 }

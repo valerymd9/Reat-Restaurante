@@ -1,0 +1,60 @@
+.contact_section {
+    background-repeat: no-repeat;
+    background-size: 215px;
+    background-position: right center;
+}
+
+.contact_section input {
+    border: none;
+    outline: none;
+    border-bottom: .8px solid #252525;
+    width: 90%;
+    margin: 10px 0;
+}
+
+.contact_form-container {
+    padding: 15px 0 15px 0;
+}
+
+.contact_form-container button {
+    border: none;
+    background-color: #fc5d35;
+    color: #fff;
+    padding: 8px 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.layout_padding {
+    padding: 75px 0;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+.mt-5,
+.my-5 {
+    margin-top: 3rem !important;
+}
+
+.mr-auto,
+.mx-auto {
+    margin-right: auto !important;
+}
+
+.col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.texto {
+    text-align: center;
+    background-color: #ccc;
+    padding: 15px;
+}

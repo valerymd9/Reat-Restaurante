@@ -37,7 +37,7 @@ export default class Nosotros extends React.Component {
                    
                     </div>
                     <div class= "col-md-5">
-               <img src={img}  alt="Restaurante" width="500" height="500" alt="Imagen Restaurante"/>
+               <img src={img} width="500" height="500" alt="Imagen Restaurante"/>
                </div>
                     
                 </div>

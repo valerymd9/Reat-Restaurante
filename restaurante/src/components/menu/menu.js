@@ -13,7 +13,7 @@ class Menu extends React.Component {
                   <h1>{this.props.nombreplato}</h1>
                   <label>Precio {this.props.precio}</label>
                   <br/>
-                  <label>Precio {this.props.descripcion}</label>
+                  <label>descripcion: {this.props.descripcion}</label>
                 </div>
               </>
             );
