@@ -1,0 +1,36 @@
+[
+
+    {
+        "id": 1,
+        "name": "cenas con amigos",
+        "description": "",
+        "image": "images/fiesta.png"
+    },
+    {
+        "id": 2,
+        "name": "cumpleaños",
+        "description": "",
+        "image": "images/bandeja_paisa.jpg"
+    }, {
+        "id": 3,
+        "name": "Aniversario",
+        "description": "",
+        "image": ""
+    }, {
+        "id": 4,
+        "name": "Despedidas",
+        "description": "",
+        "image": "images/bandeja_paisa.jpg"
+    }, {
+        "id": 5,
+        "name": "Declaraciones o Propuestas",
+        "description": "",
+        "image": "images/bandeja_paisa.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Fiestas Infantiles",
+        "description": "",
+        "image": "images/bandeja_paisa.jpg"
+    }
+]

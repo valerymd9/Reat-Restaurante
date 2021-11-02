@@ -1,22 +1,26 @@
 import React, { Component } from "react";
 import '../styles/menu.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
-class Menu extends Component {
-    render(props) {
-        return ( <
-            >
-            <
-            div className = "country" >
-            <
-            img src = { this.props.imagen }
-            alt = "Imagen del plato" / >
-            <
-            h1 > Nombre: { this.props.nombreplato } < /h1> <
-            label className = "color" > Descripción { this.props.descripcion } < /label> <
-            /div> <
-            />
-        );
-    }
-}
 
-export default Menu;
+class Menu extends React.Component {
+    
+          render(props) {
+            return (
+              <>
+                <div>
+                  <img src={this.props.image} alt="Imagenplato" />
+                  <h1>{this.props.nombreplato}</h1>
+                  <label>Precio {this.props.precio}</label>
+                  <br/>
+                  <label>Precio {this.props.descripcion}</label>
+                </div>
+              </>
+            );
+          }
+        }
+        
+        export default Menu;
+
+
+ 
