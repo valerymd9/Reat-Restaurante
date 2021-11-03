@@ -27,5 +27,11 @@
         "img": "../images/meseroM.png",
         "titulo": "Mesera",
         "name": "Juan Rodriguez Guzman"
+    },
+    {
+        "id": "persona",
+        "img": "../images/meseroH1.png",
+        "titulo": "Mesera",
+        "name": "Diego Fernando Diaz"
     }
 ]
