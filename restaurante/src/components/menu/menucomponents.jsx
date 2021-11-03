@@ -7,19 +7,23 @@ import { menuData } from '../menu/menudata';
 const Listmenu = () => {
   return (
     <>
+    <div className="menu-1">
       {menuData.map((data, id) => {
         return (
-          <div id={id} key={id} className="menu-1">
+          <div id={id} key={id} className="menu-2">
             <Menu
               nombreplato={data.name}
               precio={data.price}
               descripcion={data.description}
               image={data.image}
+              
             />
             <button>Agregar al carrito</button>
           </div>
+          
         );
       })}
+      </div>
     </>
   );
 };
