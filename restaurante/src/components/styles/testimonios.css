@@ -2,28 +2,26 @@
     padding-bottom: 15px;
 }
 
+.custom_heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+.custom_heading-text {
+    text-align: center;
+}
+
 .padding-top {
     padding-top: 30px;
 }
 
-.divider {
-    border-bottom: 2px solid #f5f5f5;
-}
-
 .carousel {
-    background: #1a1a1a;
+    background: #f5f5f5;
     min-height: 240px;
     padding: 40px;
     border: 2px;
     text-align: center;
     margin-bottom: 20px;
-}
-
-.carousel p {
-    font-size: 17px;
-    font-weight: 500;
-    padding: 2px;
-    color: #f5f5f5;
 }
 
 .testimonial-user {
@@ -35,13 +33,13 @@
 .testimonial-user h6 {
     margin-top: 20px;
     margin-left: 10px;
-    color: #f5f5f5;
+    color: #1a1a1a;
 }
 
 .testimonial-user img {
     border-radius: 50%;
-    max-width: 70px;
-    max-height: 70px;
+    max-width: 90px;
+    max-height: 90px;
     text-align: center;
 }
 
@@ -49,4 +47,50 @@
     text-decoration: none;
     color: #1a1a1a;
     width: 3px;
+}
+
+.client_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.client_container h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.client_section .custom_carousel-control {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 105px;
+    transform: translateX(-50%);
+}
+
+.client_section .custom_carousel-control .carousel-control-prev,
+.client_section .custom_carousel-control .carousel-control-next {
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: center;
+    background-color: #292727;
+}
+
+.client_section .custom_carousel-control .carousel-control-prev:hover,
+.client_section .custom_carousel-control .carousel-control-next:hover {
+    background-color: #fc5d35;
+}
+
+.client_section .custom_carousel-control .carousel-control-prev {
+    background-image: url("../../assets/images/prev.png");
+}
+
+.client_section .custom_carousel-control .carousel-control-next {
+    background-image: url("../../assets/images/next.png");
 }
