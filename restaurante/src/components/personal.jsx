@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/personal.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Personal } from '../components/EquipoTrabajo';
+import { Personal } from './EquipoTrabajo';
 import personal from '../data/personal.json';
 
 

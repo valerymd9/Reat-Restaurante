@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from '../components/menu/menu';
+import Menu from '../components/menu/menucomponents';
 
 const Carta = (props) => {
     return (

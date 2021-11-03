@@ -9,12 +9,12 @@ const Listmenu = () => {
     <>
       {menuData.map((data, id) => {
         return (
-          <div id={id} key={id}>
+          <div id={id} key={id} className="menu-1">
             <Menu
               nombreplato={data.name}
-              Precio={data.description}
-              descripcion={data.price}
-              imagen={data.image}
+              precio={data.price}
+              descripcion={data.description}
+              image={data.image}
             />
             <button>Agregar al carrito</button>
           </div>
@@ -48,7 +48,7 @@ class menuContainer extends React.Component {
   render() {
     return (
       <>
-        <div className="country-container">
+        <div className="menu-container">
           <Listmenu />
         </div>
       </>

@@ -5,7 +5,7 @@ export const menuData = [
         name: "Bandeja Paisa",
         description: "mmmmmmmm",
         price: 33000,
-        image: "./images/bandeja_pais.jpg",
+        image: "./images/bandeja_paisa.jpg",
     },
     {
         id: 2,
@@ -64,7 +64,7 @@ export const menuData = [
         name: "Sushi",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
         price: 25000,
-        image: "sushi.png",
+        image: "./images/sushi.jpg",
     },
 
     {
@@ -72,7 +72,7 @@ export const menuData = [
         name: "Ensalada César",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
         price: 25000,
-        image: "ensalada_cesar.png",
+        image: "./images/carne.jpg",
     },
     {
         id: 11,

@@ -3,9 +3,9 @@
     {
         "id": 1,
         "name": "Bandeja Paisa",
-        "description": "",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
         "price": 33000,
-        "image": "images/bandeja_paisa.jpg"
+        "image": "images/mojarra.jpg"
     },
     {
         "id": 2,
@@ -64,7 +64,7 @@
         "name": "Sushi",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
         "price": 25000,
-        "image": "sushi.png"
+        "image":  "./images/sushi.jpg"
     },
 
     {

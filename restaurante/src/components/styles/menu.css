@@ -23,3 +23,29 @@
     color: #000000;
     font-weight: bold
 }
+
+.menu-1{
+    display: inline-block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 25%;
+    text-align: justify;
+    padding: 25px;
+    border: 1px solid #000000;
+    height: 450px;
+    font-size: 16px;
+} 
+
+.menu-1 img{
+    
+    width: 250px;
+    height: 150px;
+}
+
+.menu-1 button{
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    margin-top: 40px;
+    text-align: center;
+}
