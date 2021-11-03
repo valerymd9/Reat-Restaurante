@@ -1,0 +1,31 @@
+[{
+        "id": "persona1",
+        "img": "../images/Gerente.png",
+        "titulo": "Gerente",
+        "name": "Juan Rodriguez Guzman"
+    },
+    {
+        "id": "persona2",
+        "img": "../images/Chef hombre.png",
+        "titulo": "Chef",
+        "name": "Juan Rodriguez Guzman"
+    },
+    {
+        "id": "persona3",
+        "img": "../images/Chef mujer.png",
+        "titulo": "Chef",
+        "name": "Juan Rodriguez Guzman"
+    },
+    {
+        "id": "persona4",
+        "img": "../images/meseroH.png",
+        "titulo": "Mesera",
+        "name": "Juan Rodriguez Guzman"
+    },
+    {
+        "id": "persona5",
+        "img": "../images/meseroM.png",
+        "titulo": "Mesera",
+        "name": "Juan Rodriguez Guzman"
+    }
+]
