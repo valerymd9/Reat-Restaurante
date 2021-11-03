@@ -49,14 +49,7 @@ const menuToggle = () => menuLeft.current.classList.toggle('active')
     return (
         <div className="header" ref={headerRef}>
             <div className="container">
-                <div className="header__logo">
-                    <Link to="/Home">
-
-                        <img src={logo} alt="" />
-                        
-                    </Link>
-
-                </div>
+               
                 <div className="header__menu">
                     <div className="header__menu__mobile-toggle" onClick = {menuToggle}>
                         <i className='bx bx-menu-alt-left'></i>
@@ -91,7 +84,9 @@ const menuToggle = () => menuLeft.current.classList.toggle('active')
 
                         </div>
                         <div className="header__menu__item header__menu__right__item">
+                           <Link to="/Login">
                             <i className="bx bx-user"></i>
+                            </Link>
                         </div>
                         <div className="header__menu__item header__menu__right__item">
                             <i className="bx bx-search"></i>

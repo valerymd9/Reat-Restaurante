@@ -9,7 +9,9 @@ export default class Carrito extends React.Component {
     render() {
 
         return (
-<section>
+<section className="container">
+<br/>
+    <h1 className="custom_heading"> Carrito de Compras </h1>
 
         <div class="tab-pane fade carrito active show" id="pills-contact">
             <br/>
