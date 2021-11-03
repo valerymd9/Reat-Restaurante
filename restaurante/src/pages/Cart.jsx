@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Carrito from '../components/Cart.jsx';
 
 const Cart = () => {
     return (
         <div>
-            cart
+            <Carrito/>
         </div>
     )
 }

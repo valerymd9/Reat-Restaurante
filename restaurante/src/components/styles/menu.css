@@ -1,18 +1,14 @@
-
-
-.menu-1{
+.menu-1 {
     display: block;
-    margin-top: 250px;
-  
-} 
+    margin-top: 150px;
+}
 
-.menu-1 img{
-    
+.menu-1 img {
     width: 90%;
     height: 250px;
 }
 
-.menu-1 button{
+.menu-1 button {
     background-color: #000000;
     color: #fff;
     padding: 10px 20px 10px 20px;
@@ -33,9 +29,8 @@
 
 .prueba {
     grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: 100px;
-  
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
     width: 25%;
     text-align: justify;
     padding: 25px;

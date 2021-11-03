@@ -7,10 +7,12 @@ import { menuData } from '../menu/menudata';
 const Listmenu = () => {
   return (
     <>
-    <div className="menu-1">
+    <div align="center" className="menu-1">
+                  <h1 class="custom_heading">MENU D'GUSTO</h1>
       {menuData.map((data, id) => {
         return (
-          <div id={id} key={id} className="menu-2">
+          
+          <div align="center" id={id} key={id} className="menu-2">
             <Menu
               nombreplato={data.name}
               precio={data.price}
@@ -24,6 +26,7 @@ const Listmenu = () => {
         );
       })}
       </div>
+      
     </>
   );
 };
