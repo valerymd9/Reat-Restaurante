@@ -3,34 +3,34 @@
     {
         "id": 1,
         "name": "cenas con amigos",
-        "description": "",
-        "image": "images/fiesta.png"
+        "description": "Icónico y glamuroso, D'GUSTO es el lugar más idóneo para llevar a cabo cena con amigos compartiendo momentos únicos mientras disfruta de una experiencia inolvidable.",
+        "image": "../images/reunion (1).png"
     },
     {
         "id": 2,
-        "name": "cumpleaños",
-        "description": "",
-        "image": "images/bandeja_paisa.jpg"
+        "name": "Cumpleaños",
+        "description": "En este ambiente se puede disfrutar de un cumpleaños inolvidable con más de 20 invitados sentados alrededor de una única mesa, todos preservando su espacio e intimidad.",
+        "image": "../images/pastel-de-cumpleanos.png"
     }, {
         "id": 3,
         "name": "Aniversario",
-        "description": "",
-        "image": ""
+        "description": " Disfruta de las mejores cenas romanticas para celebrar tu aniversario, con los mejores cocteles y platillos que ofrece el restaurante, preseverando su espacio e intimidad.",
+        "image": "../images/aniversario.png"
     }, {
         "id": 4,
         "name": "Despedidas",
-        "description": "",
-        "image": "images/bandeja_paisa.jpg"
+        "description": "Icónico y glamuroso, D'GUSTO es el lugar más idóneo para llevar a cabo reuniones empresariales compartiendo momentos únicos mientras disfruta de una experiencia inolvidable.",
+        "image": "../images/reunion (1).png"
     }, {
         "id": 5,
         "name": "Declaraciones o Propuestas",
-        "description": "",
-        "image": "images/bandeja_paisa.jpg"
+        "description": "Icónico y glamuroso, D'GUSTO es el lugar más idóneo para llevar a cabo reuniones empresariales compartiendo momentos únicos mientras disfruta de una experiencia inolvidable.",
+        "image": "../images/aniversario.png"
     },
     {
         "id": 6,
         "name": "Fiestas Infantiles",
-        "description": "",
-        "image": "images/bandeja_paisa.jpg"
+        "description": "Disfruta de las mejores cenas romanticas para celebrar tu aniversario, con los mejores cocteles y platillos que ofrece el restaurante, preseverando su espacio e intimidad.",
+        "image": "../images/pastel-de-cumpleanos.png"
     }
 ]

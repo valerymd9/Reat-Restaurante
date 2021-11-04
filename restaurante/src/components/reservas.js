@@ -1,10 +1,46 @@
 import React from 'react';
 import './styles/reserva.css';
 import 'bootstrap/dist/css/bootstrap.css';
-
+import emailjs from "emailjs-com";
+import swal from "sweetalert";
 
 
 export default class Reservar extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
+        this.sendEmail = this.sendEmail.bind(this);
+      }
+    
+      sendEmail(event) {
+        event.preventDefault();
+    
+        emailjs
+          .sendForm(
+            "service_u3c243x",
+            "template_ss9ekej",
+            event.target,
+            "user_N1QLAPwmzBi4e4Kiszev7"
+          )
+          .then(
+            (result) => {
+              swal({
+                icon: "success",
+                title: "¡Envio exitoso!",
+                text: "Su reserva ha sido realizada.",
+              });
+              event.target.reset();
+            },
+            (error) => {
+              swal({
+                icon: "error",
+                title: "Oops...",
+                text: "Algo salió mal!",
+              });
+            }
+          );
+      }
+
     render() {
 return(
 
@@ -23,7 +59,7 @@ return(
         <div class="row">
             <div class="col-md-8 mr-auto">
 
-                <form action="">
+                <form onSubmit={this.sendEmail} id="contact_form">
                     <div class="contact_form-container">
                         <div>
                             <div>
@@ -39,7 +75,7 @@ return(
 
                             <div class="frm-row">
                                 <div class="section colm colm6">
-                                    <label for="cantidad">Cantidad de personas</label>
+                                    <label for="cantidad">Cantidad de personas: </label>
                                     <label  for="cantidad">
                                         <input type="number" id="cantidadR" required min="1" max="15"
                                             placeholder="-"/>
@@ -50,8 +86,7 @@ return(
                             <div>
                                 <label for="fechaHora">Fecha de la reserva</label>
                                 <label for="fechaHora">
-                                <input type="datetime-local" id="fechaR" value="fecha" name="dia" min="2021-01-01"
-                                    max="2021-12-31"/></label>
+                                <input id="fecha" type="date" name="fecha" /></label>
                             </div>
 
                             <br/>
@@ -99,4 +134,6 @@ return(
 
 
 );
+
+
     }}
