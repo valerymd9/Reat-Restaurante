@@ -14,7 +14,7 @@ import Login from '../pages/Login'
 const Routes = () => {
     return (
         <switch>
-            <Route path='/' exact component={Home}/>
+            <Route path='/Home' exact component={Home}/>
             <Route path='/Carta'  component={Carta}/>
             <Route path='/Quienes'  component={Quienes}/>
             <Route path='/Reservas'  component={Reservas}/>
