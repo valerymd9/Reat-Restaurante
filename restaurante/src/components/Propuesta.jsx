@@ -95,7 +95,7 @@ export default class Propuesta extends React.Component {
    
      <section class="fruit_section">
         <div class="container">
-            <h2 class="custom_heading">MENÚ</h2>
+            <h1 class="custom_heading">MENÚ</h1>
             <p class="custom_heading-text">
                 A continuación encontrarás los platos mas representativos de la carta D'GUSTO
             </p>
