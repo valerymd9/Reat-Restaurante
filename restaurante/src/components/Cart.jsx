@@ -15,7 +15,7 @@ export default class Carrito extends React.Component {
 
         <div class="tab-pane fade carrito active show" id="pills-contact">
             <br/>
-            <table class="table table-hover">
+            <table class="table table-hover" id="toPedidoD">
                 <thead>
                     <tr class="text-primary text-dark">
                         <th scope="col">#</th>
