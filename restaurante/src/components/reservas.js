@@ -69,7 +69,7 @@ return(
                                 <input id="telefono" type="text" name="telefono" placeholder="Número de contacto"/>
                                 </div>
                                 <div>
-                                    <input  id="toEmailR" type="email" placeholder="Correo electronico"/>
+                                    <input  id="toEmailR" type="email" name="correo" placeholder="Correo electronico"/>
                                 </div>
 
 
@@ -77,7 +77,7 @@ return(
                                     <div class="section colm colm6">
                                         <label for="cantidad" class="field-label">Cantidad de personas</label>
                                         <label  for="cantidad" class="field prepend-icon">
-                                            <input id="cantidadR" type="number" min="1" max="15"
+                                            <input id="cantidadR" name="cantidad" type="number" min="1" max="15"
                                                 placeholder="-"/>
 
                                         </label>
@@ -91,7 +91,7 @@ return(
 
                                 <div>
                                     <label for="servicios">Servicios:</label>
-                                    <select id="toServiceR" type="text" name="servicios" placeholder="Evento">
+                                    <select id="toServiceR" type="text" name="evento" placeholder="Evento">
                                         <option value="-">-</option>
                                         <option value="cumpleaños">Celebracion de cumpleaños</option>
                                         <option value="aniversario">Aniversarios</option>
@@ -104,7 +104,7 @@ return(
                                 </div>
                                 <br/>
                                 <br/>
-                                <textarea id="toComentR" name="coments"  rows="10" cols="50" placeholder="Comentarios y/o solicitudes especiales" required></textarea>
+                                <textarea id="toComentR" name="comentario"  rows="10" cols="50" placeholder="Comentarios y/o solicitudes especiales" required></textarea>
                                 <br/>
                                 <br/>
                                 <div class="checkbox">
