@@ -38,3 +38,11 @@
     height: 450px;
     font-size: 16px;
 }
+.qty {
+    width: 10em;
+    margin-right: 5em;
+    text-align: center;
+}
+.qty-1 {
+    text-align: center;
+}
