@@ -26,16 +26,16 @@ export default class Reservar extends React.Component {
             (result) => {
               swal({
                 icon: "success",
-                title: "¡Envio exitoso!",
-                text: "Su reserva ha sido realizada.",
+                title: "¡Su reserva ha sido realizada con Exito.!",
+                text: "Pronto nos comunicaremos contigo",
               });
               event.target.reset();
             },
             (error) => {
               swal({
                 icon: "error",
-                title: "Oops...",
-                text: "Algo salió mal!",
+                title: "ERROR",
+                text: "Verifica Nuevamente tu Reserva!",
               });
             }
           );
@@ -59,77 +59,75 @@ return(
         <div class="row">
             <div class="col-md-8 mr-auto">
 
-                <form onSubmit={this.sendEmail} id="contact_form">
-                    <div class="contact_form-container">
-                        <div>
+                <form onSubmit={this.sendEmail}>
+                   <div class="contact_form-container">
                             <div>
-                                <input type="text" id="toNameR" minlength="10" maxlength="30" placeholder="Nombre completo" required/>
-                            </div>
-                            <div>
-                                <input type="text" id="toNumberR" placeholder="Número de contacto"/>
-                            </div>
-                            <div>
-                                <input type="email" id="toEmailR" required placeholder="Correo electronico"/>
-                            </div>
+                                <div>
+                                   <input id="toNameR" type="text" name="nombre" minlength="10" maxlength="30" placeholder="Nombre completo"/>
+                                </div>
+                                <div>
+                                <input id="telefono" type="text" name="telefono" placeholder="Número de contacto"/>
+                                </div>
+                                <div>
+                                    <input  id="toEmailR" type="email" placeholder="Correo electronico"/>
+                                </div>
 
 
-                            <div class="frm-row">
-                                <div class="section colm colm6">
-                                    <label for="cantidad">Cantidad de personas: </label>
-                                    <label  for="cantidad">
-                                        <input type="number" id="cantidadR" required min="1" max="15"
-                                            placeholder="-"/>
+                                <div class="frm-row">
+                                    <div class="section colm colm6">
+                                        <label for="cantidad" class="field-label">Cantidad de personas</label>
+                                        <label  for="cantidad" class="field prepend-icon">
+                                            <input id="cantidadR" type="number" min="1" max="15"
+                                                placeholder="-"/>
 
-                                    </label>
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                    <label for="fechaHora" class="field-label">Fecha de la reserva</label>
+                                   <label for="fechaHora"><input id="fecha" type="date" name="fecha" /></label>
+                            
+                                <br/>
+
+                                <div>
+                                    <label for="servicios">Servicios:</label>
+                                    <select id="toServiceR" type="text" name="servicios" placeholder="Evento">
+                                        <option value="-">-</option>
+                                        <option value="cumpleaños">Celebracion de cumpleaños</option>
+                                        <option value="aniversario">Aniversarios</option>
+                                        <option value="fiesta infantil">Fiestas Infantiles</option>
+                                        <option value="Propuestas">Declaraciones o propuestas</option>
+                                        <option value="Despedidas">Despedidas</option>
+                                        <option value="Amigos">Cena con amigos</option>
+                                        <option value="Ninguno">Ninguno</option>
+                                    </select>
+                                </div>
+                                <br/>
+                                <br/>
+                                <textarea id="toComentR" name="coments"  rows="10" cols="50" placeholder="Comentarios y/o solicitudes especiales" required></textarea>
+                                <br/>
+                                <br/>
+                                <div class="checkbox">
+                                    <label for="check"><input type="checkbox" id="data" required /> <span>Acepto la
+                                            politica de
+                                            tratamiento de datos personales</span></label>
+                                </div>
+
+
+                                <div class="mt-5">
+                                    <button type="submit">
+                                        Enviar
+                                    </button>
                                 </div>
                             </div>
-                            <div>
-                                <label for="fechaHora">Fecha de la reserva</label>
-                                <label for="fechaHora">
-                                <input id="fecha" type="date" name="fecha" /></label>
-                            </div>
 
-                            <br/>
-
-                            <div>
-                                <label for="servicios">Servicios:</label>
-                                <select type="text" name="servicios" id="toServiceR" placeholder="Evento">
-                                    <option value="-">-</option>
-                                    <option value="cumpleaños">Celebracion de cumpleaños</option>
-                                    <option value="aniversario">Aniversarios</option>
-                                    <option value="fiesta infantil">Fiestas Infantiles</option>
-                                    <option value="Propuestas">Declaraciones o propuestas</option>
-                                    <option value="Despedidas">Despedidas</option>
-                                    <option value="Amigos">Cena con amigos</option>
-                                    <option value="Ninguno">Ninguno</option>
-                                </select>
-                            </div>
-                            <br/>
-                            <br/>
-                            <textarea name="coments" id="toComentR" rows="10" cols="50" placeholder="Comentarios y/o solicitudes especiales" required></textarea>
-                            <br/>
-                            <br/>
-                            <div class="checkbox">
-                                <label for="check"><input type="checkbox" id="data" required /> <span>Acepto la
-                                        politica de
-                                        tratamiento de datos personales</span></label>
-                            </div>
-
-
-                            <div class="mt-5">
-                                <button type="submit" onclick='sendReservas()'>
-                                    Enviar
-                                </button>
-                            </div>
                         </div>
 
-                    </div>
+                    </form>
+                </div>
 
-                </form>
             </div>
-
         </div>
-    </div>
 </section>
 
 
