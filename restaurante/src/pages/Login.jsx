@@ -1,12 +1,10 @@
 import React from 'react';
-import Sesion from '../components/login.jsx';
+import Sesion from '../../src/components/login/login';
 
 export const Login = () => {
     return (
         <div align="center" className="container">
-            <br/>
-           <h1 className="custom_heading"> Iniciar Sesión </h1>
-           <br/>
+           
            <Sesion/>
 
         </div>
