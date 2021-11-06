@@ -75,7 +75,7 @@ const Login = () => {
             <Title text="Iniciar sesión" />
             {hasError && (
               <label className="label-alert">
-               Error: Verificanuevamente tu usuario o Contraseña 
+               Error: Verifica tu usuario o Contraseña 
               </label>
             )}
             <Label text="Usuario" />
