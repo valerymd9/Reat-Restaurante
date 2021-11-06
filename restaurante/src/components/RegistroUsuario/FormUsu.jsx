@@ -1,27 +1,18 @@
-import React from 'react';
-import '../styles/login.css';
-import 'bootstrap/dist/css/bootstrap.css';
-
-
+import React from "react";
+import "../styles/login.css";
 
 const Input = ({ attribute, handleChange, param}) => {
-  return(
-
-
-
+    return(
         <div>
             <input    
             id = {attribute.id}
             name = {attribute.name}
             type = {attribute.type}
-            required = {attribute.required}
             onChange = {(e) => handleChange(e.target.name, e.target.value)}
             className ={ param ? 'input-error' : 'form-group' }
             />
         </div>
-  
+    )
+};
 
-            )
-          };
-          
-          export default Input;
+export default Input;

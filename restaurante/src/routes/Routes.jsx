@@ -9,6 +9,8 @@ import Quienes from '../pages/Quienes'
 import Reservas from '../pages/Reservas'
 import Servicios from '../pages/Servicios'
 import Login from '../pages/Login'
+import Register from '../pages/RegistroU'
+
 
 
 const Routes = () => {
@@ -21,6 +23,7 @@ const Routes = () => {
             <Route path='/Servicios'  component={Servicios}/>
             <Route path='/Cart'  component={Cart}/>
             <Route path='/Login'  component={Login}/>
+            <Route path='/Registro'  component={Register}/>
         </switch>
     )
 }

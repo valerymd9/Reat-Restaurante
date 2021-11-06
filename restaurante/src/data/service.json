@@ -32,5 +32,17 @@
         "name": "Fiestas Infantiles",
         "description": "Disfruta de las mejores cenas romanticas para celebrar tu aniversario, con los mejores cocteles y platillos que ofrece el restaurante, preseverando su espacio e intimidad.",
         "image": "../images/pastel-de-cumpleanos.png"
+    },
+    {
+        "id": 6,
+        "name": "Fiestas Infantiles",
+        "description": "Disfruta de las mejores cenas romanticas para celebrar tu aniversario, con los mejores cocteles y platillos que ofrece el restaurante, preseverando su espacio e intimidad.",
+        "image": "../images/pastel-de-cumpleanos.png"
+    },
+    {
+        "id": 6,
+        "name": "Fiestas Infantiles",
+        "description": "Disfruta de las mejores cenas romanticas para celebrar tu aniversario, con los mejores cocteles y platillos que ofrece el restaurante, preseverando su espacio e intimidad.",
+        "image": "../images/pastel-de-cumpleanos.png"
     }
 ]

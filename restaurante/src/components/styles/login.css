@@ -8,6 +8,25 @@
     height: 50%;
 }
 
+.containerP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff;
+}
+
+.contact-login {
+    box-shadow: 0 0 20px 0 rgba(240, 100, 7, 0.3);
+}
+
+.contact-login>* {
+    padding: 1em;
+}
+
 .form-group {
     width: 100%;
     padding: 0.7em;

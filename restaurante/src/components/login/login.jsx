@@ -7,6 +7,7 @@ import Input from "../login/Form.jsx";
 import Dashboard from '../../pages/DashboardAdmin';
 import '../styles/login.css';
 
+
 const Login = () => {
   const [user, setUser] = useState("");
   const [password, setPassword] = useState("");
@@ -57,7 +58,7 @@ const Login = () => {
   }
 
   return (
-    <div className="">
+    <div className="container">
          {isLogin ? (
         <Dashboard />
       ) : (
@@ -70,11 +71,11 @@ const Login = () => {
           }}
         >
           
-          <div className="contact-login animated boun ceInUP">
+          <div className="contact-login">
             <Title text="Iniciar sesión" />
             {hasError && (
               <label className="label-alert">
-                Los datos ingresados son incorrectos.
+               Error: Verificanuevamente tu usuario o Contraseña 
               </label>
             )}
             <Label text="Usuario" />
@@ -99,19 +100,19 @@ const Login = () => {
             />
             {passwordError && (
               <label className="label-error">
-                La constraseña debe tener mas de 6 digitos
+                La constraseña debe contener mas de 6 digitos
               </label>
             )}
             <div className=" container layout_padding">
-              <button className="btn-dark" onClick={handleSubmit}  style={{marginRight: "10px"}}>
+              <button className="btn btn-dark" onClick={handleSubmit}  style={{marginRight: "10px"}}>
               Ingresar
               </button>
               <Link
               
-              to="/registro"
+              to="Registro"
               style={{marginLeft: "10px"}}
             >
-              <button className="btn-dark">
+              <button className="btn btn-dark">
              
               Registro </button>
               </Link>
