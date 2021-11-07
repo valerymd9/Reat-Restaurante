@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 export const Servicios = (props) => {
 
     return (
@@ -10,11 +9,10 @@ export const Servicios = (props) => {
                             <h5 class="card-title">{props.name}</h5>
                             <p class="card-text">
                                 {props.description}
-                            </p><Link
-                            to="/Servicios">
+                            </p>
                             <div class="custom_dark-btn">
           Más Información
-          </div></Link>
+          </div>
 
                        
                 </div>
