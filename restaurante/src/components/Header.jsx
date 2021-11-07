@@ -22,6 +22,10 @@ const mainNav = [
     {
         display: "Reservas",
         path: "/Reservas"
+    },
+    {
+        display: "Catalogo",
+        path: "/Catalog"
     }
 ]
 
@@ -89,6 +93,7 @@ const menuToggle = () => menuLeft.current.classList.toggle('active')
                             </Link>
                         </div>
                         <div className="header__menu__item header__menu__right__item">
+                            
                             <i className="bx bx-search"></i>
                         </div>
                     </div>
